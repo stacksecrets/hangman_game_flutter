@@ -58,8 +58,8 @@ class _CharacterPickerState extends State<CharacterPicker> {
         height: 32.0,
         decoration: BoxDecoration(
             color: guessedLetters.contains(letter)
-                ? Colors.grey
-                : Colors.white,
+                ? Colors.grey[400]
+                : Colors.grey[600],
             borderRadius: BorderRadius.circular(4.0)),
         child: Center(child: Text(letter)),
       ),

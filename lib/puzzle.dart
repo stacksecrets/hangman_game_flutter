@@ -43,7 +43,7 @@ class _PuzzleState extends State<Puzzle> {
       height: 48.0,
       width: 48.0,
       decoration: BoxDecoration(
-          color: letterGuessedCorrectly ? Colors.limeAccent : Colors.white,
+          color: letterGuessedCorrectly ? Colors.grey[200] : Colors.grey[400],
           borderRadius: BorderRadius.circular(4.0)),
       child: letterGuessedCorrectly
           ? Center(
